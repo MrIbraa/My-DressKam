@@ -1,0 +1,205 @@
+<html lang="fr">
+
+<head>
+    <link rel="icon" href="limage-de-marque.png" type="image/png">
+    <link rel="icon" href="img99.ico" type="image/x-icon">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My DressKam</title>
+
+    <!-- Lien pour les icônes Material -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+    <style>
+        /* Style général de la page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4a4848;
+            margin: 0;
+            padding: 0;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        /* Animation du texte du nom */
+        .heroSection {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .heroSection h1 {
+            font-size: 72px;
+            color: rgb(255, 255, 255);
+            font-family: Arial, sans-serif;
+            animation: clignote 1.5s infinite alternate;
+            margin: 0 5px;
+            /* Espace entre les lettres */
+        }
+
+        @keyframes clignote {
+            0% {
+                text-shadow: 0 0 10px rgb(255, 213, 0), 0 0 20px rgb(255, 238, 0), 0 0 30px rgb(255, 204, 0);
+                opacity: 0, 1;
+            }
+
+            100% {
+                text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px #ffffff, 0 0 30px #ffffff;
+                opacity: 0.1;
+            }
+        }
+
+        /* Conteneur des boutons */
+        .SocialButtons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .linkbutton {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            background-color: #007bff;
+            color: white;
+            margin: 10px;
+            padding: 12px 20px;
+            border-radius: 8px;
+            width: 250px;
+            font-size: 16px;
+            transition: background-color 0.1s, transform 0.1s;
+        }
+
+        .linkbutton:hover {
+            background-color: #0056b3;
+            transform: translateY(-5px);
+        }
+
+        .linkbutton .material-icons {
+            margin-right: 10px;
+        }
+
+        .linkbutton p {
+            margin: 0;
+        }
+
+        .linkbutton h3 {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: normal;
+        }
+
+        /* Centrer le texte "ETUDIANT EN BAC PRO" */
+        .positions {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .tags span {
+            background-color: #333;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        /* Mise en forme de l'icon avec du texte */
+        .tags svg {
+            margin-left: 50px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Section d'animation du nom -->
+    <div class="heroSection">
+        <h1>My</h1>
+        <h1>D</h1>
+        <h1>r</h1>
+        <h1>e</h1>
+        <h1>s</h1>
+        <h1>s</h1>
+        <h1>K</h1>
+        <h1>a</h1>
+        <h1>m</h1>
+    </div>
+
+    <!-- Section Étudiant en Bac Pro -->
+    <div class="positions">
+        <span class="my-position">LOCATIONS DE ROBES</span>
+    </div>
+
+    <!-- Section des boutons sociaux -->
+    <section class="SocialButtons">
+        <a href="https://www.instagram.com/my_dresskam/" class="linkbutton" target="_blank">
+            <span class="material-icons">camera</span>
+            <p class="linkname">Instagram</p>
+        </a>
+
+        <a href="https://www.tiktok.com/@my_dresskam" class="linkbutton" target="_blank">
+            <span class="material-icons">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+                    crossorigin="anonymous" />
+                <i class="fab fa-tiktok"></i>
+            </span>
+            <p class="linkname">Tiktok</p>
+        </a>
+        <a href="./index.html" class="linkbutton" target="_blank">
+            <span class="material-icons"></span>
+            <p class="linkname">Site</p>
+        </a>
+        <style>
+            /* Style pour le carré avec le texte */
+            .message-box {
+                position: fixed;
+                /* Position fixe par rapport à la fenêtre */
+                bottom: 20px;
+                /* Décalage de 20px du bas */
+                left: 20px;
+                /* Décalage de 20px du côté gauche */
+                padding: 10px 20px;
+                /* Un peu d'espace autour du texte */
+                background-color: #007BFF;
+                /* Couleur de fond bleue */
+                color: white;
+                /* Couleur du texte en blanc */
+                font-family: Arial, sans-serif;
+                /* Police du texte */
+                font-size: 16px;
+                /* Taille du texte */
+                border-radius: 5px;
+                /* Coins arrondis */
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                /* Ombre légère */
+            }
+        </style>
+        </head>
+
+        <body>
+
+            </div>
+
+
+
+
+    </section>
+</body>
+
+</html>
